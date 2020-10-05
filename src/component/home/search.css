@@ -1,0 +1,212 @@
+
+.imagecontainer{
+	 /*background-image:linear-gradient(to bottom, rgba(157, 14, 14, 0.4), #4f0707);*/
+	/*background-image: url("https://i.postimg.cc/76kStDSv/food-wallpaper.png");*/
+	position: relative;
+	background:rgba(0,0,0,0.4);
+
+}
+
+.imagecontainer img{
+	height: 480px;
+	width: 100%;
+	object-fit: none;
+}
+
+ .logo{
+	font-size: 90px;
+	font-weight: bold;
+	font-family:all;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: white;
+	color: red;
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	/*transform: translateY(-50%);*/
+	left:50%;
+	transform: translateX(-50%);
+	}
+.heading{
+	font-weight: 600;
+	width: 100%;
+	font-family: Poppins;
+	position: absolute;
+	top: 45%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+  align-items: center;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 34px;
+	color: white;
+}	
+@media (max-width: 415px){
+  .heading{
+    font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  font-family: Poppins;
+  position: absolute;
+  top: 25%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 34px;
+  color: white;
+  }
+  .logo{
+  font-size: 60px;
+  font-weight: bold;
+  font-family:all;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  /*transform: translateY(-50%);*/
+  left:50%;
+  transform: translateX(-50%);
+  }
+
+.locationSelector{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+/*just add location in media*/
+}
+.locationSelector{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+.location{
+	height: 50px;
+	width: 250px;
+	color: gray;
+	font-size: 1.112rem;
+	border-radius: 3px;
+}
+.restaurantinput{
+	height: 50px;
+	width: 300px;
+	color: gray;
+	font-size: 1.112rem;
+	border-radius: 3px;
+}
+@media (max-width: 1200px){
+	.location{
+	height: 50px;
+	width: 100%;
+	color: gray;
+	font-size: 1.112rem;
+	border-radius: 3px;
+	left: 30%;
+	/*transform: translateX(-50%);*/
+}
+
+.restaurantinput{
+	height: 50px;
+	width: 100%;
+	color: gray;
+	font-size: 1.112rem;
+	border-radius: 3px;
+		left: 70%;/*transform: translateX(-50%);*/
+/**/
+	}	
+}
+/*QuickHEading*/
+.head1{
+	text-align: left;
+    color:#192f60;
+    font-size:30px;
+    /*line-height: 46px;*/
+   	/*width: 305px;*/
+   	font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    	/*margin-bottom: 7px;*/
+}
+.head2{
+	text-align: left;
+    color:#8c96ab;
+    font-size:18px;
+    /*line-height: 46px;*/
+   	/*width: 350px;*/
+   	font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    /*margin-bottom: 33px;*/
+
+}
+
+ .tilecomponent1 img{
+   width: 160px;
+  height: 160px;
+  object-fit: fill;
+  /*background-size: ;*/
+}
+   .title{
+    height:160px;
+    width:330px;
+    background-color:white;
+    /*margin: auto;*/
+    margin: 1.66%;
+    box-shadow: 0 3px 6px black;
+    float: left;  
+    /*box-sizing: border-box;*/
+}
+.tilecomponent1{
+    width:50%;
+    float: left;
+    object-fit: none;
+        /*box-sizing: border-box;*/
+}
+.tilecomponent2{
+    width:50%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+/*here using media query also can not able solve issue*/
+@media (max-width: 576){
+	.title.tilecomponent2{
+    
+    padding: 0px; 
+    }
+   
+}
+.compheading{
+	text-align: left;
+    color:#192f60;
+    font-size:18px;
+    /*line-height: 46px;*/
+   	width: 100px;
+   	font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+        box-sizing: border-box;
+}
+.compSubheading{
+	text-align: left;
+    color:#192f60;
+    font-size:14px;
+    line-height: 21px;
+   	width: 100px;
+   	font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    	/*margin-top: 25px;*/
+            box-sizing: border-box;
+}
